@@ -5,6 +5,8 @@ It has been shown that engaging younger students with demonstrations of science 
 Considering this increasing need and the recent decline in interest, developing a playful demon- stration targeted at younger audiences can help spurt new growth. 
 This project serves as an interactive demonstration of computer science concepts with the goal of inspiring the next generation of scientists & engineers.
 
+
+
 MISSION
 
 The objective of this project is to implement a Jenga-playing robot system involving a human opponent. 
