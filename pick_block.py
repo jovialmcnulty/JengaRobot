@@ -1,6 +1,7 @@
 # import the necessary packages
 import numpy as np
 
+#--------------------------------- Picking block function start ---------------------------------
 def pick_block(tower_state):
 	block_index = [0,0]
 
@@ -12,19 +13,12 @@ def pick_block(tower_state):
 			block_index[0] = x;
 			block_index[1] = 1;
 			return block_index
+#--------------------------------- Picking block function end ---------------------------------
 
 
 
 
-
-
-
-
-
-
-
-
-
+#--------------------------------- Testing picking block function start ---------------------------------
 tower_state = np.array([[1, 1, 1],
 			[1, 1, 1], 
 			[1, 1, 1],
@@ -46,3 +40,4 @@ tower_state = np.array([[1, 1, 1],
 
 block_index = pick_block(tower_state)
 print("\nBlock Index: ["+str(block_index[0])+"]["+str(block_index[1])+"]\n")
+#--------------------------------- Testing picking block function end ---------------------------------
